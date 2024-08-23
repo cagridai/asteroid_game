@@ -38,7 +38,7 @@ def main():
         for obj in shots:
             for asteroid in asteroids:
                 if obj.check_col(asteroid):
-                    asteroid.kill()
+                    asteroid.split()
                     obj.kill()
                 
             
