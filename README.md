@@ -1,3 +1,6 @@
+## Virtural Env
+source venv/bin/activate
+
 ## TODO
 
 Add a scoring system
